@@ -1,0 +1,28 @@
+html{
+    font-size: 5vw;
+    padding: .7rem 1rem;
+}
+:root{
+    --mainColor:#1a3fa9;
+    --btnGrad:linear-gradient(90deg, rgba(5,221,235,1) 0%, rgba(10,178,253,1) 100%);;
+}
+.main-title{
+    font-size: .6rem;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.black{
+    color: #000000;
+}
+.small{
+    font-size: .45rem;
+    width: 5rem;
+}
+.main-content{
+    font-size: .23rem;
+    color: rgba(255, 255, 255, .7);
+}
+.gray{
+    color: rgba(0,0,0,.8);
+}

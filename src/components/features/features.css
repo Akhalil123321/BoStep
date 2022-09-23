@@ -1,0 +1,45 @@
+.features-cont{
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.features-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 0 .5rem;
+    text-align: center;
+    gap: .25rem;
+}
+.features-card>img{
+    width: 1.5rem;
+}
+.features-card>h4{
+    font-size: 0.3rem;
+    margin: 0;
+    padding: 0;
+}
+.features-card>p{
+    color: rgba(0, 0, 0, .8);
+    font-size: .19rem;
+}
+.features-shapes{
+    position: absolute;
+    width: 1rem;
+}
+.shape-left{
+left: 0;
+top: 0;
+transform: translateX(-1rem);
+}
+.shape-right{
+right: 0;
+bottom: 0;
+transform: translateX(1rem);
+
+}

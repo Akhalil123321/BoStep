@@ -1,0 +1,30 @@
+.whyus-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.whyus-cont>:nth-child(1){
+    width: 45%;
+    position: relative;
+}
+.whyus-cont>:nth-child(1)>:nth-child(1){
+    position: absolute;
+    width: 8rem;
+    transform: translateY(-1.5rem);
+}
+.whyus-cont>:nth-child(1)>:nth-child(2){
+    position: absolute;
+    width: 7.2rem;
+    left: .39rem;
+    top: .38rem;
+    transform: translateY(-1.5rem);
+}
+.whyus-cont>:nth-child(2){
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.whyus-cont>:nth-child(2)>p{
+    width: 6rem;
+}
