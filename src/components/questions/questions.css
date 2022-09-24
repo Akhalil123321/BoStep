@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-bottom: 2rem;
 }
 .questions-cont>:nth-child(1){
     text-align: center;
@@ -41,15 +42,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
-.arrow-up, .arrow-down{
+.arrow-down{
     width: .3rem;
     height: .3rem;
     fill: var(--mainColor);
     cursor: pointer;
-}
-.arrow-up{
-    transform: rotate(180deg);
-}
-.arrow-down{
-    transform: rotate(0);
 }

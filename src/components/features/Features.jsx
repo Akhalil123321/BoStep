@@ -6,7 +6,7 @@ import './features.css'
 const Features = () => {
     const cards = features.map(items=>{
         return(
-            <div className='features-card'>
+            <div className='features-card' key={items.key}>
                 <img src={items.img} alt="" />
                 <h4>{items.title}</h4>
                 <p>{items.content}</p>
