@@ -11,6 +11,7 @@ const Whyus = () => {
                 <img src={image2} alt="" />
             </div>
             <div>
+                <div className='line'></div>
                 <h1 className='main-title black small'>{whyus.title}</h1>
                 <p className='main-content gray'>{whyus.contetnt}</p>
             </div>

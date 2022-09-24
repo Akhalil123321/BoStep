@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+    padding-bottom: 3.2rem;
 }
 .whyus-cont>:nth-child(1){
     width: 45%;
@@ -16,7 +17,7 @@
     position: absolute;
     width: 7.2rem;
     left: .39rem;
-    top: .38rem;
+    top: .35rem;
     transform: translateY(-1.5rem);
 }
 .whyus-cont>:nth-child(2){

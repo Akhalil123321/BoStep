@@ -5,6 +5,7 @@ html{
 :root{
     --mainColor:#1a3fa9;
     --btnGrad:linear-gradient(90deg, rgba(5,221,235,1) 0%, rgba(10,178,253,1) 100%);;
+    --divGrad:linear-gradient(90deg, #1d29a4 0%, #1183c6 100%);;
 }
 .main-title{
     font-size: .6rem;
@@ -15,6 +16,9 @@ html{
 .black{
     color: #000000;
 }
+.meduim{
+    font-size: .4rem;
+}
 .small{
     font-size: .45rem;
     width: 5rem;
@@ -24,5 +28,11 @@ html{
     color: rgba(255, 255, 255, .7);
 }
 .gray{
-    color: rgba(0,0,0,.8);
+    color: rgba(0,0,0,.7);
+}
+.line{
+    background: var(--divGrad);
+    width: 1.6rem;
+    height: .18rem;
+    border-radius: 1rem;
 }
