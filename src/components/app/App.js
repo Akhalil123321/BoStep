@@ -6,6 +6,7 @@ import Whyus from '../whyus/Whyus';
 import Pricing from '../pricing/Pricing';
 import AboutUs from '../aboutUs/AboutUs';
 import Questions from '../questions/Questions';
+import Footer from '../footer/Footer';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ return (
 		<Pricing/>
 		<AboutUs/>
 		<Questions/>
+		<Footer/>
     </div>
 );
 }

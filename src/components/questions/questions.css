@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    position: relative;
 }
 .questions-cont>:nth-child(1){
     text-align: center;
@@ -47,4 +48,18 @@ justify-content: space-between;
     height: .3rem;
     fill: var(--mainColor);
     cursor: pointer;
+}
+.question-shape-left{
+    position: absolute;
+    width: 1rem;
+    left: 0;
+    top: 0;
+    transform: translateX(-1rem) scaleY(-1);
+}
+.question-shape-right{
+    position: absolute;
+    width: 1rem;
+    right: 0;
+    bottom: 0;
+    transform: translateX(1rem) scaleY(-1);
 }

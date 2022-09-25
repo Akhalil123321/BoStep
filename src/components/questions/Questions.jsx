@@ -1,4 +1,6 @@
 import React from 'react'
+import shape2 from '../../images/shape2.png'
+import shape3 from '../../images/shape3.png'
 import { FaAngleDown } from 'react-icons/fa';
 import { questions } from '../Date'
 import './questions.css'
@@ -33,6 +35,8 @@ const content2 = questions.list2.map(items => {
                     {content2}
                 </div>
             </div>
+            <img src={shape2} alt="" className='question-shape-left'/>
+            <img src={shape3} alt="" className='question-shape-right'/>
         </div>
     )
 }

@@ -2,11 +2,11 @@
 
 ## Demo
 
-<a href=''><img src='public/bostep-site.png' width=1000vw/></a>
+<a href='https://bostep.netlify.app/'><img src='public/bostep-site.png' width=1000vw/></a>
 
 ## Computer View
 
-<img src='' width=1000vw/>
+<img src='./public/computer-view.png' width=1000vw/>
 
 ## Mobile View
 
